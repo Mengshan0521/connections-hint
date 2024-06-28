@@ -8,6 +8,6 @@ export const maintitle: Metadata = {
 }
 
 export const maindescription: Metadata = {
-  en: 'A blog created with Next.js, i18n and Tailwind.css',
-  fr: 'Un blog crée avec tailwind, i18n et next.js',
+  en: 'Find daily NYT Connections hints and solutions to uncover hidden word connections. Enhance your game with our expert tips and strategies. Join us for more fun!',
+  fr: 'Trouvez chaque jour des astuces et solutions pour NYT Connections. Découvrez les connexions de mots cachées et améliorez votre jeu avec nos conseils d\'experts.',
 }

@@ -1,12 +1,12 @@
 {
-  "greeting": "Les plus récents",
-  "description": "Un blog crée grâce à Next.js, i18n et Tailwind.css",
+  "greeting": "Conseils sur NYT Connections",
+  "description": "Bienvenue sur le site de conseils pour le jeu Connections du New York Times ! Recevez des indices et solutions quotidiens pour découvrir les connexions cachées entre les mots. Que vous soyez débutant ou expert, nos astuces amélioreront votre jeu. Rejoignez-nous pour une expérience amusante et enrichissante !",
   "more": "Lire la suite",
   "all": "Tous les articles",
 
   "moreaboutme": "Plus à mon sujet",
 
-  "featured": "A la une",
+  "featured": "NYT Connections",
   "morefeatured": "Plus d'articles à la une",
   "morerecent": "Plus d'articles récents",
 
