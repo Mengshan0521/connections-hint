@@ -3,8 +3,8 @@ type Metadata = {
 }
 
 export const maintitle: Metadata = {
-  en: 'Next.js i18n Starter Blog',
-  fr: 'Starter Blog Next.js i18n',
+  en: 'Connections hint - New York Times Connections Game hint',
+  fr: 'Connections hint - Indice du jeu New York Times Connections',
 }
 
 export const maindescription: Metadata = {

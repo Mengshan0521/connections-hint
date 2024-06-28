@@ -70,7 +70,7 @@ const Header = () => {
                 </Link>
               )
             })}
-          <AuthorsMenu className="hidden sm:block" />
+          {/* <AuthorsMenu className="hidden sm:block" /> */}
           <SearchButton />
           <ThemeSwitch />
           <LangSwitch />

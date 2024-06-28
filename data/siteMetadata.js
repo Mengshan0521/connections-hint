@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js i18n Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
+  title: 'Connections hint - New York Times Connections Game hint',
+  author: 'W.S. Meng',
+  headerTitle: 'Connections hint',
   description: 'A blog created with Next.js, i18n and Tailwind.css',
   language: 'en',
   theme: 'system', // system, dark or light
@@ -44,7 +44,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    // provider: 'buttondown',
   },
   iscomments: false,
   comments: {
