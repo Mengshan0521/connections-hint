@@ -80,7 +80,7 @@ const MobileNav = () => {
               </Link>
             </div>
           ))}
-          {siteMetadata.multiauthors && (
+          {/* {siteMetadata.multiauthors && (
             <>
               <div className="px-12 py-4 text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100">
                 {t('about')}:
@@ -131,7 +131,7 @@ const MobileNav = () => {
                 return null
               })}
             </div>
-          )}
+          )} */}
         </nav>
       </div>
     </>

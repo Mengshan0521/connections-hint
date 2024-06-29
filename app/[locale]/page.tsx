@@ -13,7 +13,9 @@ export default async function Page({ params: { locale } }: HomeProps) {
   const posts = allCoreContent(sortedPosts)
   return (
     <>
-      <FeaturedLayout posts={posts} params={{ locale }} />
+      {posts.filter((post) => post.language === locale).some((post) => post.summary) && (
+        <FeaturedLayout posts={posts} params={{ locale }} />
+      )}
       <HomeLayout posts={posts} params={{ locale: locale }} />
     </>
   )
