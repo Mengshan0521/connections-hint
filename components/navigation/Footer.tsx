@@ -29,7 +29,7 @@ export default function Footer() {
       <footer>
         <div className="mt-16 flex flex-col items-center">
           <div className="mb-3 flex space-x-4">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               {siteMetadata.formspree === false ? (
                 <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
               ) : (
@@ -38,7 +38,7 @@ export default function Footer() {
                 </button>
               )}
             </div>
-            {/* <div className="flex items-center">
+            <div className="flex items-center">
               <SocialIcon kind="github" href={siteMetadata.github} size={6} />
             </div>
             <div className="flex items-center">
