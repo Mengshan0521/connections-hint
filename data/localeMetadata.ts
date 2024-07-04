@@ -3,8 +3,8 @@ type Metadata = {
 }
 
 export const maintitle: Metadata = {
-  en: 'Connections hint - New York Times Connections Game hint',
-  fr: 'Connections hint - Indice du jeu New York Times Connections',
+  en: 'NYT Connections Hint Today',
+  fr: 'NYT Connections Hint Today',
 }
 
 export const maindescription: Metadata = {

@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Connections hint - New York Times Connections Game hint',
+  title: 'NYT Connections Hint Today',
   author: 'W.S. Meng',
   headerTitle: 'Connections hint',
   description: 'A blog created with Next.js, i18n and Tailwind.css',
