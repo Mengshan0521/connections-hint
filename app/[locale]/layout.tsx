@@ -14,7 +14,7 @@ import { Metadata } from 'next'
 import { dir } from 'i18next'
 import { LocaleTypes, locales } from './i18n/settings'
 import TwSizeIndicator from '@/components/helper/TwSizeIndicator'
-import Script from "next/script";
+import Script from 'next/script'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -85,14 +85,13 @@ export default function RootLayout({
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-
-        {/* Google AdSense script */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7641164672822196"
-          crossOrigin="anonymous"
-        ></Script>
-
+      {/* Google AdSense script */}
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7641164672822196"
+        crossOrigin="anonymous"
+      ></Script>
+      <meta name="google-adsense-account" content="ca-pub-7641164672822196"></meta>
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
