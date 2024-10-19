@@ -90,6 +90,7 @@ export default function RootLayout({
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7641164672822196"
         crossOrigin="anonymous"
+        strategy="afterInteractive"
       ></Script>
       <meta name="google-adsense-account" content="ca-pub-7641164672822196"></meta>
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
